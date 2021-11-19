@@ -20,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .field-wrap {
@@ -35,7 +34,6 @@
 }
 
 .field-input {
-    
     border-radius: 5px;
     border: .5px solid var(--gray);
 }
