@@ -1,0 +1,56 @@
+
+:root {
+    --main: #feb52e;
+    --mainLight:  #feb52e38;
+    --gray: rgba(133, 133, 133, 0.267);
+}
+.form-wrap {
+    margin: 20px 100px;
+}
+.join-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 200px;
+}
+
+.form-title {
+    background: var(--mainLight);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.field-wrap {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+.field-title {
+    font-size: 1rem;   
+    text-align: left;
+}
+
+.field-input {
+    
+    border-radius: 5px;
+    border: .5px solid var(--gray);
+}
+
+.input-button, .field-input{
+   height: 40px;
+}
+
+.input-button {
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    background: var(--main);
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+}
+
